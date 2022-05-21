@@ -19,7 +19,7 @@ func TestUncompress(t *testing.T) {
 		t.Run(test.name, func(t *testing.T) {
 			result := Uncompress(test.input)
 			if result != test.expected {
-				t.Errorf("For input '%s', expected result '%s' but got '%s'", test.input, test.expected, result)
+				t.Errorf("For input '%s', expected result is '%s' but got '%s'", test.input, test.expected, result)
 			}
 		})
 	}
