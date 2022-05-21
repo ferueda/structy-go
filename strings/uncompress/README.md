@@ -11,21 +11,21 @@ The function should return an uncompressed version of the string where each 'cha
 
 **test_00:**
 ```go
-uncompress("2c3a1t") # -> 'ccaaat'
+uncompress("2c3a1t") // -> 'ccaaat'
 ```
 **test_01:**
 ```go
-uncompress("4s2b") # -> 'ssssbb'
+uncompress("4s2b") // -> 'ssssbb'
 ```
 **test_02:**
 ```go
-uncompress("2p1o5p") # -> 'ppoppppp'
+uncompress("2p1o5p") // -> 'ppoppppp'
 ```
 **test_03:**
 ```go
-uncompress("3n12e2z") # -> 'nnneeeeeeeeeeeezz'
+uncompress("3n12e2z") // -> 'nnneeeeeeeeeeeezz'
 ```
 **test_04:**
 ```go
-uncompress("127y") # -> 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
+uncompress("127y") // -> 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 ```
