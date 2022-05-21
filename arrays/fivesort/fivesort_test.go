@@ -17,7 +17,7 @@ var testTable = []struct {
 	{"test_04", []int{5, 1, 2, 5, 5, 3, 2, 5, 1, 5, 5, 5, 4, 5}, []int{4, 1, 2, 1, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5}},
 }
 
-func TestCompress(t *testing.T) {
+func TestFiveSort(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := fiveSort(test.input)
