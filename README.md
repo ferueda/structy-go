@@ -6,4 +6,4 @@ This repo contains all problem sets and solutions for the course written in Go.
 
 ## Arrays
 
-* [Uncompress](https://github.com/ferueda/structy-go/arrays/uncompress)
+* [Uncompress](https://github.com/ferueda/structy-go/tree/main/strings/uncompress)
