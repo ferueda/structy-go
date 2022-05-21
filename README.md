@@ -16,3 +16,4 @@ This repo contains all problem sets and solutions for the course. Solution and t
 
 * [Pair sum](https://github.com/ferueda/structy-go/tree/main/arrays/pairsum)
 * [Pair product](https://github.com/ferueda/structy-go/tree/main/arrays/pairproduct)
+* [Intersection](https://github.com/ferueda/structy-go/tree/main/arrays/intersection)
