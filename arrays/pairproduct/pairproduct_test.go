@@ -16,7 +16,7 @@ var testTable = []struct {
 	{"test_05", []int{4, 6, 8, 2}, 16, [2]int{2, 3}},
 }
 
-func TestCompress(t *testing.T) {
+func TestPairProduct(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := pairProduct(test.input1, test.input2)

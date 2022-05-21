@@ -28,7 +28,7 @@ func generateSlice() []int {
 	return a
 }
 
-func TestCompress(t *testing.T) {
+func TestIntersection(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := intersection(test.input1, test.input2)

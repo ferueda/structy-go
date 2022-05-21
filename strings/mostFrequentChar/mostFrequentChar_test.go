@@ -16,7 +16,7 @@ var testTable = []struct {
 	{"test_06", "riverbed", "r"},
 }
 
-func TestCompress(t *testing.T) {
+func TestMostFrequentChar(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := mostFrequentChar(test.input)

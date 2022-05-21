@@ -16,7 +16,7 @@ var testTable = []struct {
 	{"test_05", []int{6, 4, 2, 8}, 12, [2]int{1, 3}},
 }
 
-func TestCompress(t *testing.T) {
+func TestPairSum(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := pairSum(test.input1, test.input2)

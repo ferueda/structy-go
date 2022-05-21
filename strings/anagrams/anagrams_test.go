@@ -19,7 +19,7 @@ var testTable = []struct {
 	{"test_08", "abbc", "aabc", false},
 }
 
-func TestCompress(t *testing.T) {
+func TestAnagrams(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := anagrams(test.input1, test.input2)
