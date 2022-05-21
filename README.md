@@ -13,3 +13,5 @@ This repo contains all problem sets and solutions for the course, written in Go.
 * [Most frequent char](https://github.com/ferueda/structy-go/tree/main/strings/mostFrequentChar)
 
 ### Arrays
+
+* [Pair sum](https://github.com/ferueda/structy-go/tree/main/arrays/pairsum)
