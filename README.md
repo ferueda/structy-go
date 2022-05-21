@@ -1,6 +1,6 @@
 # [Structy](https://www.structy.net/problem-index)
 
-This repo contains all problem sets and solutions for the course. Solution and test suites are written in Go.
+This repo contains all problem sets and solutions for the course made by @alvin-the-programmer. Solution and test suites are written in Go.
 
 ## [Link to the course](https://www.structy.net/)
 
