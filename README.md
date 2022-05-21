@@ -1,6 +1,6 @@
 # [Structy](https://www.structy.net/problem-index)
 
-This repo contains all problem sets and solutions for the course, written in Go.
+This repo contains all problem sets and solutions for the course. Solution and test suites are written in Go.
 
 ## [Link to the course](https://www.structy.net/)
 
@@ -15,3 +15,4 @@ This repo contains all problem sets and solutions for the course, written in Go.
 ### Arrays
 
 * [Pair sum](https://github.com/ferueda/structy-go/tree/main/arrays/pairsum)
+* [Pair product](https://github.com/ferueda/structy-go/tree/main/arrays/pairproduct)
