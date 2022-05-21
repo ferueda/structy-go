@@ -9,5 +9,6 @@ This repo contains all problem sets and solutions for the course, written in Go.
 
 * [Uncompress](https://github.com/ferueda/structy-go/tree/main/strings/uncompress)
 * [Compress](https://github.com/ferueda/structy-go/tree/main/strings/compress)
+* [Anagrams](https://github.com/ferueda/structy-go/tree/main/strings/anagrams)
 
 ### Arrays
