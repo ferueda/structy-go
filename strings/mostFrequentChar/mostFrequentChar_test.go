@@ -19,7 +19,7 @@ var testTable = []struct {
 func TestCompress(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
-			result := MostFrequentChar(test.input)
+			result := mostFrequentChar(test.input)
 			if result != test.expected {
 				t.Errorf("For input '%s', expected result is '%v' but got '%v'", test.input, test.expected, result)
 			}

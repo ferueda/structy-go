@@ -17,7 +17,7 @@ var testTable = []struct {
 func TestUncompress(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
-			result := Uncompress(test.input)
+			result := uncompress(test.input)
 			if result != test.expected {
 				t.Errorf("For input '%s', expected result is '%s' but got '%s'", test.input, test.expected, result)
 			}

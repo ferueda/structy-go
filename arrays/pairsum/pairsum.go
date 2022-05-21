@@ -1,6 +1,6 @@
 package pairsum
 
-func Pairsum(nums []int, target int) [2]int {
+func pairSum(nums []int, target int) [2]int {
 	seen := make(map[int]int)
 
 	for i, n := range nums {

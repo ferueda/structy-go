@@ -1,6 +1,6 @@
 package mostFrequentChar
 
-func MostFrequentChar(s string) string {
+func mostFrequentChar(s string) string {
 	chars := make(map[rune]int)
 
 	for _, c := range s {

@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func Compress(s string) string {
+func compress(s string) string {
 	s += "!"
 	var r []string
 	i, j := 0, 0

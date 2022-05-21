@@ -6,7 +6,7 @@ import (
 	"unicode"
 )
 
-func Uncompress(s string) string {
+func uncompress(s string) string {
 	var r []string
 	i, j := 0, 0
 	sr := []rune(s)

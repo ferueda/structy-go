@@ -1,6 +1,6 @@
 package anagrams
 
-func Anagrams(s1, s2 string) bool {
+func anagrams(s1, s2 string) bool {
 	chars := make(map[rune]int)
 
 	for _, c := range s1 {

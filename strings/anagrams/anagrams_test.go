@@ -22,7 +22,7 @@ var testTable = []struct {
 func TestCompress(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
-			result := Anagrams(test.input1, test.input2)
+			result := anagrams(test.input1, test.input2)
 			if result != test.expected {
 				t.Errorf("For inputs '%s' and '%s', expected result is '%v' but got '%v'", test.input1, test.input2, test.expected, result)
 			}
