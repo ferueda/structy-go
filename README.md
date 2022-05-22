@@ -25,3 +25,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Sum list](https://github.com/ferueda/structy-go/tree/main/linkedlist/sumList)
 * [Find value](https://github.com/ferueda/structy-go/tree/main/linkedlist/findValue)
 * [Get node value](https://github.com/ferueda/structy-go/tree/main/linkedlist/getNodeValue)
+* [Reverse list](https://github.com/ferueda/structy-go/tree/main/linkedlist/reverseList)
