@@ -22,3 +22,13 @@ func (n *Node[T]) String() string {
 
 	return r + "nil"
 }
+
+func (n *Node[T]) GetValues() []T {
+	values := []T{}
+
+	for curr := n; curr != nil; curr = curr.Next {
+		values = append(values, curr.Val)
+	}
+
+	return values
+}
