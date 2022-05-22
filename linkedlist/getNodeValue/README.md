@@ -65,7 +65,7 @@ getNodeValue(node1, 0); // -> "banana"
 var node1 = Node{Val: "banana"}
 var node2 = Node{Val: "mango"}
 
-node1.next = &b;
+node1.next = &node2;
 
 // jason -> leneli
 
