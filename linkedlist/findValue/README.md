@@ -62,7 +62,7 @@ findValue(a, "jason"); // -> true
 ```go
 var a = Node{Val: 42}
 
-// jason -> leneli
+// 42
 
 findValue(a, 42); // -> true
 ```
@@ -70,7 +70,7 @@ findValue(a, 42); // -> true
 ```go
 var a = Node{Val: 42}
 
-// jason -> leneli
+// 42
 
 findValue(a, 100); // -> false
 ```
