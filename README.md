@@ -18,3 +18,8 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Pair product](https://github.com/ferueda/structy-go/tree/main/arrays/pairproduct)
 * [Intersection](https://github.com/ferueda/structy-go/tree/main/arrays/intersection)
 * [Five sort](https://github.com/ferueda/structy-go/tree/main/arrays/fivesort)
+
+### Linked List
+
+* [Linked list values](https://github.com/ferueda/structy-go/tree/main/linkedlist/linkedListValues)
+* [Sum list](https://github.com/ferueda/structy-go/tree/main/linkedlist/sumList)
