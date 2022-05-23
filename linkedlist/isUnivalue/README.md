@@ -60,7 +60,7 @@ d.next = &e;
 
 isUnivalue(a); // false
 ```
-**test_02:**
+**test_04:**
 ```go
 var a = Node{Val: 1}
 
