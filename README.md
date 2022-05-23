@@ -29,3 +29,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Zipper lists](https://github.com/ferueda/structy-go/tree/main/linkedlist/zipperLists)
 * [Merge lists](https://github.com/ferueda/structy-go/tree/main/linkedlist/mergeLists)
 * [Is univalue](https://github.com/ferueda/structy-go/tree/main/linkedlist/isUnivalue)
+* [Longest streak](https://github.com/ferueda/structy-go/tree/main/linkedlist/longestStreak)
