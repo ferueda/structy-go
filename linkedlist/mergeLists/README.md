@@ -81,5 +81,5 @@ p.next = &q;
 
 // 15 -> 67
 
-mergeLists(a, q); // 15 -> 30 -> 67
+mergeLists(h, p); // 15 -> 30 -> 67
 ```
