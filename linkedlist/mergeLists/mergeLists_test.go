@@ -51,7 +51,7 @@ func TestMergeLists(t *testing.T) {
 		t.Run(test.name, func(t *testing.T) {
 			result := mergeLists(test.input1, test.input2)
 			if !reflect.DeepEqual(result.GetValues(), test.expected) {
-				t.Errorf("For inputs '%s' and '%s, expected result is '%v' but got '%v'", test.input1.String(), test.input2.String(), test.expected, result.GetValues())
+				t.Errorf("For inputs '%s' and '%s', expected result is '%v' but got '%v'", test.input1.String(), test.input2.String(), test.expected, result.GetValues())
 			}
 		})
 	}
