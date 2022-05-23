@@ -1,4 +1,4 @@
-package zipperList
+package zipperLists
 
 import (
 	"github.com/ferueda/structy-go/linkedlist"
@@ -6,7 +6,7 @@ import (
 
 // iterative
 
-// func zipperList[T any](node1, node2 *linkedlist.Node[T]) *linkedlist.Node[T] {
+// func zipperLists[T any](node1, node2 *linkedlist.Node[T]) *linkedlist.Node[T] {
 // 	tail, curr1, curr2 := node1, node1.Next, node2
 // 	isEven := true
 
@@ -35,7 +35,7 @@ import (
 
 // recursive
 
-func zipperList[T any](node1, node2 *linkedlist.Node[T]) *linkedlist.Node[T] {
+func zipperLists[T any](node1, node2 *linkedlist.Node[T]) *linkedlist.Node[T] {
 	if node1 == nil && node2 == nil {
 		return nil
 	}
@@ -48,7 +48,7 @@ func zipperList[T any](node1, node2 *linkedlist.Node[T]) *linkedlist.Node[T] {
 
 	next := node1.Next
 	node1.Next = node2
-	node2.Next = zipperList(next, node2.Next)
+	node2.Next = zipperLists(next, node2.Next)
 
 	return node1
 }
