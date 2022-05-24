@@ -31,3 +31,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Is univalue](https://github.com/ferueda/structy-go/tree/main/linkedlist/isUnivalue)
 * [Longest streak](https://github.com/ferueda/structy-go/tree/main/linkedlist/longestStreak)
 * [Remove node](https://github.com/ferueda/structy-go/tree/main/linkedlist/removeNode)
+* [Insert node](https://github.com/ferueda/structy-go/tree/main/linkedlist/insertNode)
