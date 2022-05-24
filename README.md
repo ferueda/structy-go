@@ -32,3 +32,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Longest streak](https://github.com/ferueda/structy-go/tree/main/linkedlist/longestStreak)
 * [Remove node](https://github.com/ferueda/structy-go/tree/main/linkedlist/removeNode)
 * [Insert node](https://github.com/ferueda/structy-go/tree/main/linkedlist/insertNode)
+* [Create linked list](https://github.com/ferueda/structy-go/tree/main/linkedlist/createLinkedlist)
