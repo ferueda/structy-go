@@ -34,3 +34,7 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Insert node](https://github.com/ferueda/structy-go/tree/main/linkedlist/insertNode)
 * [Create linked list](https://github.com/ferueda/structy-go/tree/main/linkedlist/createLinkedlist)
 * [Add lists](https://github.com/ferueda/structy-go/tree/main/linkedlist/addLists)
+
+### Binary Tree
+
+* [Depth first values](https://github.com/ferueda/structy-go/tree/main/binarytree/depthFirstValues)
