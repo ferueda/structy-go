@@ -12,8 +12,8 @@ var a = Node{Val: "a"}
 var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 
-a.next = &b;
-b.next = &c;
+a.next = &b
+b.next = &c
 
 // a -> b -> c
 
@@ -22,12 +22,12 @@ var y = Node{Val: "y"}
 var z = Node{Val: "z"}
 
 
-x.next = &y;
-y.next = &z;
+x.next = &y
+y.next = &z
 
 // x -> y -> z
 
-zipperLists(a, x); // a -> x -> b -> y -> c -> z
+zipperLists(a, x) // a -> x -> b -> y -> c -> z
 ```
 **test_01:**
 ```go
@@ -38,11 +38,11 @@ var d = Node{Val: "d"}
 var e = Node{Val: "e"}
 var f = Node{Val: "f"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
-d.next = &e;
-e.next = &f;
+a.next = &b
+b.next = &c
+c.next = &d
+d.next = &e
+e.next = &f
 
 // a -> b -> c -> d -> e -> f
 
@@ -50,32 +50,32 @@ var x = Node{Val: "x"}
 var y = Node{Val: "y"}
 var z = Node{Val: "z"}
 
-x.next = &y;
-y.next = &z;
+x.next = &y
+y.next = &z
 
 // x -> y -> z
 
-zipperLists(a, x); // a -> x -> b -> y -> c -> z -> d -> e -> f
+zipperLists(a, x) // a -> x -> b -> y -> c -> z -> d -> e -> f
 ```
 **test_02:**
 ```go
 var s = Node{Val: "s"}
 var t = Node{Val: "t"}
 
-s.next = &t;
+s.next = &t
 
 var one = Node{Val: "1"}
 var two = Node{Val: "2"}
 var three = Node{Val: "3"}
 var four = Node{Val: "4"}
 
-one.next = &two;
-two.next = &three;
-three.next = &four;
+one.next = &two
+two.next = &three
+three.next = &four
 
 // 1 -> 2 -> 3 -> 4
 
-zipperLists(s, one); // s -> 1 -> t -> 2 -> 3 -> 4
+zipperLists(s, one) // s -> 1 -> t -> 2 -> 3 -> 4
 ```
 **test_03:**
 ```go
@@ -87,12 +87,12 @@ var one = Node{Val: "1"}
 var two = Node{Val: "2"}
 var three = Node{Val: "3"}
 
-one.next = &two;
-two.next = &three;
+one.next = &two
+two.next = &three
 
 // 1 -> 2 -> 3 
 
-zipperLists(w, one); // w -> 1 -> 2 -> 3
+zipperLists(w, one) // w -> 1 -> 2 -> 3
 ```
 **test_04:**
 ```go
@@ -100,8 +100,8 @@ var one = Node{Val: "1"}
 var two = Node{Val: "2"}
 var three = Node{Val: "3"}
 
-one.next = &two;
-two.next = &three;
+one.next = &two
+two.next = &three
 
 // 1 -> 2 -> 3 
 
@@ -109,5 +109,5 @@ var w = Node{Val: "w"}
 
 // w
 
-zipperLists(one, w); // 1 -> w -> 2 -> 3
+zipperLists(one, w) // 1 -> w -> 2 -> 3
 ```

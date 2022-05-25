@@ -6,29 +6,29 @@ You can assume that the input string is non-empty.
 
 **test_00:**
 ```go
-mostFrequentChar("bookeeper"); // -> "e"
+mostFrequentChar("bookeeper") // -> "e"
 ```
 **test_01:**
 ```go
-mostFrequentChar("david"); // -> "d"
+mostFrequentChar("david") // -> "d"
 ```
 **test_02:**
 ```go
-mostFrequentChar("abby"); // -> "b"
+mostFrequentChar("abby") // -> "b"
 ```
 **test_03:**
 ```go
-mostFrequentChar("mississippi"); // -> "i"
+mostFrequentChar("mississippi") // -> "i"
 ```
 **test_04:**
 ```go
-mostFrequentChar("potato"); // -> "o"
+mostFrequentChar("potato") // -> "o"
 ```
 **test_05:**
 ```go
-mostFrequentChar("eleventennine"); // -> "e"
+mostFrequentChar("eleventennine") // -> "e"
 ```
 **test_06:**
 ```go
-mostFrequentChar("riverbed"); // -> "r"
+mostFrequentChar("riverbed") // -> "r"
 ```

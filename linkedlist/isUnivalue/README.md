@@ -10,11 +10,11 @@ var a = Node{Val: 7}
 var b = Node{Val: 7}
 var c = Node{Val: 7}
 
-a.next = &b;
-b.next = &c;
+a.next = &b
+b.next = &c
 
 
-isUnivalue(a); // true
+isUnivalue(a) // true
 ```
 **test_01:**
 ```go
@@ -22,11 +22,11 @@ var a = Node{Val: 7}
 var b = Node{Val: 7}
 var c = Node{Val: 4}
 
-a.next = &b;
-b.next = &c;
+a.next = &b
+b.next = &c
 
 
-isUnivalue(a); // false
+isUnivalue(a) // false
 ```
 **test_02:**
 ```go
@@ -36,13 +36,13 @@ var c = Node{Val: 2}
 var d = Node{Val: 2}
 var e = Node{Val: 2}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
-d.next = &e;
+a.next = &b
+b.next = &c
+c.next = &d
+d.next = &e
 
 
-isUnivalue(a); // true
+isUnivalue(a) // true
 ```
 **test_03:**
 ```go
@@ -52,17 +52,17 @@ var c = Node{Val: 2}
 var d = Node{Val: 3}
 var e = Node{Val: 2}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
-d.next = &e;
+a.next = &b
+b.next = &c
+c.next = &d
+d.next = &e
 
 
-isUnivalue(a); // false
+isUnivalue(a) // false
 ```
 **test_04:**
 ```go
 var a = Node{Val: 1}
 
-isUnivalue(a); // true
+isUnivalue(a) // true
 ```

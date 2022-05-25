@@ -11,11 +11,11 @@ var d = Node{Val: "d"}
 var e = Node{Val: "e"}
 var f = Node{Val: "f"}
 
-a.Left = &b;
-a.Right = &c;
-b.Left = &d;
-b.Right = &e;
-c.Right = &f;
+a.Left = &b
+a.Right = &c
+b.Left = &d
+b.Right = &e
+c.Right = &f
 
 //      a
 //    /   \
@@ -23,7 +23,7 @@ c.Right = &f;
 //  / \     \
 // d   e     f
 
-depthFirstValues(&a); // ["a", "b", "d", "e", "c", "f"]
+depthFirstValues(&a) // ["a", "b", "d", "e", "c", "f"]
 ```
 **test_01:**
 ```go
@@ -35,12 +35,12 @@ var e = Node{Val: "e"}
 var f = Node{Val: "f"}
 var g = Node{Val: "g"}
 
-a.Left = &b;
-a.Right = &c;
-b.Left = &d;
-b.Right = &e;
-c.Right = &f;
-e.Left = &g;
+a.Left = &b
+a.Right = &c
+b.Left = &d
+b.Right = &e
+c.Right = &f
+e.Left = &g
 
 //      a
 //    /   \
@@ -50,7 +50,7 @@ e.Left = &g;
 //    /
 //   g
 
-depthFirstValues(&a); // ["a", "b", "d", "e", "g", "c", "f"]
+depthFirstValues(&a) // ["a", "b", "d", "e", "g", "c", "f"]
 ```
 **test_02:**
 ```go
@@ -58,7 +58,7 @@ var a = Node{Val: "a"}
 
 // a
 
-depthFirstValues(&a); // ["a"]
+depthFirstValues(&a) // ["a"]
 ```
 **test_03:**
 ```go
@@ -68,10 +68,10 @@ var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 var e = Node{Val: "e"}
 
-a.Right = &b;
-b.Left = &c;
-c.Right = &d;
-d.Right = &e;
+a.Right = &b
+b.Left = &c
+c.Right = &d
+d.Right = &e
 
 //      a
 //       \
@@ -83,9 +83,9 @@ d.Right = &e;
 //         \
 //          e
 
-depthFirstValues(&a); // ["a", "b", "c", "d", "e"]
+depthFirstValues(&a) // ["a", "b", "c", "d", "e"]
 ```
 **test_04:**
 ```go
-depthFirstValues(nil); // []
+depthFirstValues(nil) // []
 ```

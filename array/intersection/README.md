@@ -22,11 +22,11 @@ intersection([0,1,2], [10,11]) // -> []
 ```
 **test_04:**
 ```go
-a, b := make([]int, 0, 50000), make([]int, 0, 50000);
+a, b := make([]int, 0, 50000), make([]int, 0, 50000)
 
 for i := 0; i < 50000; i++ {
   a = append(a, i)
-  b = append(b, i);
+  b = append(b, i)
 }
 
 intersection(a, b) // -> [0,1,2,3,..., 49999]

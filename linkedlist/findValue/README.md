@@ -9,13 +9,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-findValue(a, "c"); // -> true
+findValue(a, "c") // -> true
 ```
 **test_01:**
 ```go
@@ -24,13 +24,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-findValue(a, "d"); // -> true
+findValue(a, "d") // -> true
 ```
 **test_02:**
 ```go
@@ -39,24 +39,24 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-findValue(a, "q"); // -> false
+findValue(a, "q") // -> false
 ```
 **test_03:**
 ```go
 var a = Node{Val: "jason"}
 var b = Node{Val: "leneli"}
 
-a.next = &b;
+a.next = &b
 
 // jason -> leneli
 
-findValue(a, "jason"); // -> true
+findValue(a, "jason") // -> true
 ```
 **test_04:**
 ```go
@@ -64,7 +64,7 @@ var a = Node{Val: 42}
 
 // 42
 
-findValue(a, 42); // -> true
+findValue(a, 42) // -> true
 ```
 **test_05:**
 ```go
@@ -72,5 +72,5 @@ var a = Node{Val: 42}
 
 // 42
 
-findValue(a, 100); // -> false
+findValue(a, 100) // -> false
 ```

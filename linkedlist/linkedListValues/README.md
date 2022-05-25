@@ -9,24 +9,24 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-linkedListValues(a); // -> [ "a", "b", "c", "d" ]
+linkedListValues(a) // -> [ "a", "b", "c", "d" ]
 ```
 **test_01:**
 ```go
 var x = Node{Val: "x"}
 var y = Node{Val: "y"}
 
-x.next = &y;
+x.next = &y
 
 // x -> y
 
-linkedListValues(x); // -> [ "x", "y" ]
+linkedListValues(x) // -> [ "x", "y" ]
 ```
 **test_02:**
 ```go
@@ -34,9 +34,9 @@ var q = Node{Val: "q"}
 
 // q
 
-linkedListValues(q); // -> [ "q" ]
+linkedListValues(q) // -> [ "q" ]
 ```
 **test_03:**
 ```go
-linkedListValues(nil); // -> [ ]
+linkedListValues(nil) // -> [ ]
 ```

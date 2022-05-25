@@ -13,13 +13,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d 
 
-insertNode(a, "x", 2); // a -> b -> x -> c -> d
+insertNode(a, "x", 2) // a -> b -> x -> c -> d
 ```
 **test_01:**
 ```go
@@ -28,13 +28,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d 
 
-insertNode(a, "v", 3); // a -> b -> c -> v -> d
+insertNode(a, "v", 3) // a -> b -> c -> v -> d
 ```
 **test_02:**
 ```go
@@ -43,22 +43,22 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d 
 
-insertNode(a, "m", 4); // a -> b -> c -> d -> m
+insertNode(a, "m", 4) // a -> b -> c -> d -> m
 ```
 **test_03:**
 ```go
 var a = Node{Val: "a"}
 var b = Node{Val: "b"}
 
-a.next = &b;
+a.next = &b
 
 // a -> b
 
-insertNode(a, "z", 0); // z -> a -> b 
+insertNode(a, "z", 0) // z -> a -> b 
 ```

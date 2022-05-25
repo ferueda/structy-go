@@ -11,13 +11,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-getNodeValue(a, 2); // -> "c"
+getNodeValue(a, 2) // -> "c"
 ```
 **test_01:**
 ```go
@@ -26,13 +26,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-getNodeValue(a, 3); // -> "d"
+getNodeValue(a, 3) // -> "d"
 ```
 **test_02:**
 ```go
@@ -41,33 +41,33 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "d"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> d
 
-getNodeValue(a, 7); // -> ""
+getNodeValue(a, 7) // -> ""
 ```
 **test_03:**
 ```go
 var node1 = Node{Val: "banana"}
 var node2 = Node{Val: "mango"}
 
-node1.next = &node2;
+node1.next = &node2
 
 // jason -> leneli
 
-getNodeValue(node1, 0); // -> "banana"
+getNodeValue(node1, 0) // -> "banana"
 ```
 **test_04:**
 ```go
 var node1 = Node{Val: "banana"}
 var node2 = Node{Val: "mango"}
 
-node1.next = &node2;
+node1.next = &node2
 
 // jason -> leneli
 
-getNodeValue(node1, 1); // -> "mango"
+getNodeValue(node1, 1) // -> "mango"
 ```

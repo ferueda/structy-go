@@ -17,15 +17,15 @@ var d = Node{Val: "d"}
 var e = Node{Val: "e"}
 var f = Node{Val: "f"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
-d.next = &e;
-e.next = &f;
+a.next = &b
+b.next = &c
+c.next = &d
+d.next = &e
+e.next = &f
 
 // a -> b -> c -> d -> e -> f
 
-removeNode(a, "c"); // a -> b -> d -> e -> f
+removeNode(a, "c") // a -> b -> d -> e -> f
 ```
 **test_01:**
 ```go
@@ -33,12 +33,12 @@ var a = Node{Val: "a"}
 var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 
-a.next = &b;
-b.next = &c;
+a.next = &b
+b.next = &c
 
 // a -> b -> c
 
-removeNode(a, "c"); // a -> b
+removeNode(a, "c") // a -> b
 ```
 **test_02:**
 ```go
@@ -46,12 +46,12 @@ var a = Node{Val: "a"}
 var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 
-a.next = &b;
-b.next = &c;
+a.next = &b
+b.next = &c
 
 // a -> b -> c
 
-removeNode(a, "a"); // b -> c
+removeNode(a, "a") // b -> c
 ```
 **test_03:**
 ```go
@@ -60,13 +60,13 @@ var b = Node{Val: "b"}
 var c = Node{Val: "c"}
 var d = Node{Val: "b"}
 
-a.next = &b;
-b.next = &c;
-c.next = &d;
+a.next = &b
+b.next = &c
+c.next = &d
 
 // a -> b -> c -> b
 
-removeNode(a, "b"); // a -> c -> b
+removeNode(a, "b") // a -> c -> b
 ```
 **test_04:**
 ```go
@@ -74,5 +74,5 @@ var a = Node{Val: "a"}
 
 // a
 
-removeNode(a, "a"); // nil
+removeNode(a, "a") // nil
 ```
