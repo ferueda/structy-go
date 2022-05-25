@@ -5,14 +5,14 @@ This repo contains all problem sets and solutions for the algorithms and data st
 ## [Link to the course](https://www.structy.net/)
 
 ## Problem Sets
-### Strings
+### String
 
 * [Uncompress](https://github.com/ferueda/structy-go/tree/main/strings/uncompress)
 * [Compress](https://github.com/ferueda/structy-go/tree/main/strings/compress)
 * [Anagrams](https://github.com/ferueda/structy-go/tree/main/strings/anagrams)
 * [Most frequent char](https://github.com/ferueda/structy-go/tree/main/strings/mostFrequentChar)
 
-### Arrays
+### Array
 
 * [Pair sum](https://github.com/ferueda/structy-go/tree/main/arrays/pairsum)
 * [Pair product](https://github.com/ferueda/structy-go/tree/main/arrays/pairproduct)
@@ -38,3 +38,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 ### Binary Tree
 
 * [Depth first values](https://github.com/ferueda/structy-go/tree/main/binarytree/depthFirstValues)
+* [Breadth first values](https://github.com/ferueda/structy-go/tree/main/binarytree/breadthFirstValues)
