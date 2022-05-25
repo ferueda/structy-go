@@ -17,14 +17,14 @@ import (
 // 	queue.Push(root)
 
 // 	for queue.Size() > 0 {
-// 		curr, _ := queue.Pop()
-// 		values = append(values, curr.Val)
+// 		node, _ := queue.Pop()
+// 		values = append(values, node.Val)
 
-// 		if curr.Right != nil {
-// 			queue.Push(curr.Right)
+// 		if node.Right != nil {
+// 			queue.Push(node.Right)
 // 		}
-// 		if curr.Left != nil {
-// 			queue.Push(curr.Left)
+// 		if node.Left != nil {
+// 			queue.Push(node.Left)
 // 		}
 // 	}
 
