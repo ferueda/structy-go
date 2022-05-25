@@ -13,18 +13,18 @@ import (
 // 		return values
 // 	}
 
-// 	queue := ds.Stack[*binarytree.Node[T]]{}
-// 	queue.Push(root)
+// 	stack := ds.NewStack[*binarytree.Node[T]]()
+// 	stack.Push(root)
 
-// 	for queue.Size() > 0 {
-// 		node, _ := queue.Pop()
+// 	for stack.Size() > 0 {
+// 		node, _ := stack.Pop()
 // 		values = append(values, node.Val)
 
 // 		if node.Right != nil {
-// 			queue.Push(node.Right)
+// 			stack.Push(node.Right)
 // 		}
 // 		if node.Left != nil {
-// 			queue.Push(node.Left)
+// 			stack.Push(node.Left)
 // 		}
 // 	}
 
