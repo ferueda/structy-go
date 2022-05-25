@@ -28,3 +28,7 @@ func (q *Queue[T]) Dequeue() (T, error) {
 func (q *Queue[T]) Size() int {
 	return len(q.queue)
 }
+
+func NewQueue[T any]() *Queue[T] {
+	return &Queue[T]{queue: []T{}}
+}

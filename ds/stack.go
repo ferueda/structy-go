@@ -4,15 +4,15 @@ import (
 	"errors"
 )
 
-type Stack[T any] struct {
+type stack[T any] struct {
 	stack []T
 }
 
-func (s *Stack[T]) Push(el T) {
+func (s *stack[T]) Push(el T) {
 	s.stack = append(s.stack, el)
 }
 
-func (s *Stack[T]) Pop() (T, error) {
+func (s *stack[T]) Pop() (T, error) {
 	var r T
 
 	if len(s.stack) == 0 {
@@ -25,6 +25,10 @@ func (s *Stack[T]) Pop() (T, error) {
 	return r, nil
 }
 
-func (s *Stack[T]) Size() int {
+func (s *stack[T]) Size() int {
 	return len(s.stack)
+}
+
+func NewStack[T any]() *stack[T] {
+	return &stack[T]{stack: []T{}}
 }
