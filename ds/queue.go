@@ -4,15 +4,15 @@ import (
 	"errors"
 )
 
-type Queue[T any] struct {
+type queue[T any] struct {
 	queue []T
 }
 
-func (q *Queue[T]) Enqueue(el T) {
+func (q *queue[T]) Enqueue(el T) {
 	q.queue = append(q.queue, el)
 }
 
-func (q *Queue[T]) Dequeue() (T, error) {
+func (q *queue[T]) Dequeue() (T, error) {
 	var r T
 
 	if len(q.queue) == 0 {
@@ -25,10 +25,10 @@ func (q *Queue[T]) Dequeue() (T, error) {
 	return r, nil
 }
 
-func (q *Queue[T]) Size() int {
+func (q *queue[T]) Size() int {
 	return len(q.queue)
 }
 
-func NewQueue[T any]() *Queue[T] {
-	return &Queue[T]{queue: []T{}}
+func NewQueue[T any]() *queue[T] {
+	return &queue[T]{queue: []T{}}
 }
