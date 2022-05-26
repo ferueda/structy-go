@@ -40,3 +40,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Depth first values](https://github.com/ferueda/structy-go/tree/main/binarytree/depthFirstValues)
 * [Breadth first values](https://github.com/ferueda/structy-go/tree/main/binarytree/breadthFirstValues)
 * [Tree sum](https://github.com/ferueda/structy-go/tree/main/binarytree/treeSum)
+* [Tree includes](https://github.com/ferueda/structy-go/tree/main/binarytree/treeIncludes)
