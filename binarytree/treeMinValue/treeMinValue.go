@@ -5,22 +5,16 @@ import (
 
 	"github.com/ferueda/structy-go/binarytree"
 	"github.com/ferueda/structy-go/ds"
+	// "github.com/ferueda/structy-go/utils"
 )
 
 // depth first
-
-// func min(a, b int) int {
-// 	if a < b {
-// 		return a
-// 	}
-// 	return b
-// }
 
 // func treeMinValue(root *binarytree.Node[int]) int {
 // 	if root == nil {
 // 		return math.MaxInt
 // 	}
-// 	return min(root.Val, min(treeMinValue(root.Left), treeMinValue(root.Right)))
+// 	return utils.Min(root.Val, utils.Min(treeMinValue(root.Left), treeMinValue(root.Right)))
 // }
 
 // breadth first
