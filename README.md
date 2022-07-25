@@ -1,5 +1,7 @@
 # [Structy](https://www.structy.net/problem-index)
 
+[![Test Status](https://github.com/ferueda/structy-go/workflows/tests/badge.svg)](https://github.com/ferueda/structy-go/actions?query=workflow%3Atests)
+
 This repo contains all problem sets and solutions for the algorithms and data structures course made by [Alvin Zablan](https://github.com/alvin-the-programmer). Solutions and test suites are written in Go.
 
 ## [Link to the course](https://www.structy.net/)
