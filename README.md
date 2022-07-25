@@ -9,17 +9,17 @@ This repo contains all problem sets and solutions for the algorithms and data st
 ## Problem Sets
 ### String
 
-* [Uncompress](https://github.com/ferueda/structy-go/tree/main/strings/uncompress)
-* [Compress](https://github.com/ferueda/structy-go/tree/main/strings/compress)
-* [Anagrams](https://github.com/ferueda/structy-go/tree/main/strings/anagrams)
-* [Most frequent char](https://github.com/ferueda/structy-go/tree/main/strings/mostFrequentChar)
+* [Uncompress](https://github.com/ferueda/structy-go/tree/main/string/uncompress)
+* [Compress](https://github.com/ferueda/structy-go/tree/main/string/compress)
+* [Anagrams](https://github.com/ferueda/structy-go/tree/main/string/anagrams)
+* [Most frequent char](https://github.com/ferueda/structy-go/tree/main/string/mostFrequentChar)
 
 ### Array
 
-* [Pair sum](https://github.com/ferueda/structy-go/tree/main/arrays/pairsum)
-* [Pair product](https://github.com/ferueda/structy-go/tree/main/arrays/pairproduct)
-* [Intersection](https://github.com/ferueda/structy-go/tree/main/arrays/intersection)
-* [Five sort](https://github.com/ferueda/structy-go/tree/main/arrays/fivesort)
+* [Pair sum](https://github.com/ferueda/structy-go/tree/main/array/pairsum)
+* [Pair product](https://github.com/ferueda/structy-go/tree/main/array/pairproduct)
+* [Intersection](https://github.com/ferueda/structy-go/tree/main/array/intersection)
+* [Five sort](https://github.com/ferueda/structy-go/tree/main/array/fivesort)
 
 ### Linked List
 
