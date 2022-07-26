@@ -46,3 +46,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Tree min value](https://github.com/ferueda/structy-go/tree/main/binarytree/treeMinValue)
 * [Max root to leaf path sum](https://github.com/ferueda/structy-go/tree/main/binarytree/maxPathSum)
 * [Tree path finder](https://github.com/ferueda/structy-go/tree/main/binarytree/treePathFinder)
+* [Tree value count](https://github.com/ferueda/structy-go/tree/main/binarytree/treeValueCount)
