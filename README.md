@@ -48,3 +48,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Tree path finder](https://github.com/ferueda/structy-go/tree/main/binarytree/treePathFinder)
 * [Tree value count](https://github.com/ferueda/structy-go/tree/main/binarytree/treeValueCount)
 * [How high](https://github.com/ferueda/structy-go/tree/main/binarytree/howHigh)
+* [Bottom right value](https://github.com/ferueda/structy-go/tree/main/binarytree/bottomRightValue)
