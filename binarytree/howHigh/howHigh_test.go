@@ -44,7 +44,7 @@ var testTable = []struct {
 		-1},
 }
 
-func TestTreeValueCount(t *testing.T) {
+func TestHowHigh(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := howHigh(test.input)
