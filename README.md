@@ -50,3 +50,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [How high](https://github.com/ferueda/structy-go/tree/main/binarytree/howHigh)
 * [Bottom right value](https://github.com/ferueda/structy-go/tree/main/binarytree/bottomRightValue)
 * [All tree paths](https://github.com/ferueda/structy-go/tree/main/binarytree/allTreePaths)
+* [Tree levels](https://github.com/ferueda/structy-go/tree/main/binarytree/treeLevels)
