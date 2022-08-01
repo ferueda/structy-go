@@ -1,3 +1,3 @@
 package graph
 
-type Graph[T any] map[string][]T
+type Graph[T comparable] map[T][]T
