@@ -52,3 +52,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [All tree paths](https://github.com/ferueda/structy-go/tree/main/binarytree/allTreePaths)
 * [Tree levels](https://github.com/ferueda/structy-go/tree/main/binarytree/treeLevels)
 * [Level averages](https://github.com/ferueda/structy-go/tree/main/binarytree/levelAverages)
+* [Leaf list](https://github.com/ferueda/structy-go/tree/main/binarytree/leafList)
