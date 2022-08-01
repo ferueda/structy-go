@@ -4,7 +4,7 @@ Write a function, hasPath, that takes in a map representing the adjacency list o
 
 **test_00:**
 ```go
-var graph = graph.Graph[string]{
+var g = graph.Graph[string]{
   "f": {"g", "i"},
   "g": {"h"},
   "h": {},
@@ -13,11 +13,11 @@ var graph = graph.Graph[string]{
   "k": {},
 }
 
-hasPath(graph, "f", "k") // true
+hasPath(g, "f", "k") // true
 ```
 **test_01:**
 ```go
-var graph = graph.Graph[string]{
+var g = graph.Graph[string]{
   "f": {"g", "i"},
   "g": {"h"},
   "h": {},
@@ -26,11 +26,11 @@ var graph = graph.Graph[string]{
   "k": {},
 }
 
-hasPath(graph, "f", "j") // false
+hasPath(g, "f", "j") // false
 ```
 **test_02:**
 ```go
-var graph = graph.Graph[string]{
+var g = graph.Graph[string]{
   "f": {"g", "i"},
   "g": {"h"},
   "h": {},
@@ -39,11 +39,11 @@ var graph = graph.Graph[string]{
   "k": {},
 }
 
-hasPath(graph, "i", "h") // true
+hasPath(g, "i", "h") // true
 ```
 **test_03:**
 ```go
-var graph = graph.Graph[string]{
+var g = graph.Graph[string]{
   "v": {"x", "w"},
   "w": {},
   "x": {},
@@ -51,11 +51,11 @@ var graph = graph.Graph[string]{
   "z": {},
 }
 
-hasPath(graph, "v", "w") // true
+hasPath(g, "v", "w") // true
 ```
 **test_04:**
 ```go
-var graph = graph.Graph[string]{
+var g = graph.Graph[string]{
   "v": {"x", "w"},
   "w": {},
   "x": {},
@@ -63,5 +63,5 @@ var graph = graph.Graph[string]{
   "z": {},
 }
 
-hasPath(graph, "v", "z") // false
+hasPath(g, "v", "z") // false
 ```
