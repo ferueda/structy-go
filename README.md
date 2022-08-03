@@ -61,3 +61,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Connected components count](https://github.com/ferueda/structy-go/tree/main/graph/connectedComponentsCount)
 * [Largest component](https://github.com/ferueda/structy-go/tree/main/graph/largestComponent)
 * [Shortest path](https://github.com/ferueda/structy-go/tree/main/graph/shortestPath)
+* [Island count](https://github.com/ferueda/structy-go/tree/main/graph/islandCount)
