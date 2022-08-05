@@ -1,7 +1,6 @@
 package connectedComponentsCount
 
 import (
-	"reflect"
 	"testing"
 
 	"github.com/ferueda/structy-go/graph"
@@ -70,7 +69,7 @@ func TestConnectedComponentsCount(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := connectedComponentsCount(test.input)
-			if !reflect.DeepEqual(result, test.expected) {
+			if result != test.expected {
 				t.Errorf("For input '%v', expected result is '%v' but got '%v'", test.input, test.expected, result)
 			}
 		})

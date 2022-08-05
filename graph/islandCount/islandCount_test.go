@@ -1,7 +1,6 @@
 package islandCount
 
 import (
-	"reflect"
 	"testing"
 )
 
@@ -52,7 +51,7 @@ func TestIslandCount(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := islandCount(test.input)
-			if !reflect.DeepEqual(result, test.expected) {
+			if result != test.expected {
 				t.Errorf("For input '%v', expected result is '%v' but got '%v'", test.input, test.expected, result)
 			}
 		})

@@ -1,7 +1,6 @@
 package hasPath
 
 import (
-	"reflect"
 	"testing"
 
 	"github.com/ferueda/structy-go/graph"
@@ -82,7 +81,7 @@ func TestHasPath(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
 			result := hasPath(test.input1, test.input2, test.input3)
-			if !reflect.DeepEqual(result, test.expected) {
+			if result != test.expected {
 				t.Errorf("For inputs '%v', '%v', and '%v', expected result is '%v' but got '%v'", test.input1, test.input2, test.input3, test.expected, result)
 			}
 		})
