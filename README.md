@@ -65,3 +65,4 @@ This repo contains all problem sets and solutions for the algorithms and data st
 * [Minimum island](https://github.com/ferueda/structy-go/tree/main/graph/minimumIsland)
 * [Closest carrot](https://github.com/ferueda/structy-go/tree/main/graph/closestCarrot)
 * [Longest path](https://github.com/ferueda/structy-go/tree/main/graph/longestPath)
+* [Semesters required](https://github.com/ferueda/structy-go/tree/main/graph/semestersRequired)
