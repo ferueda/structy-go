@@ -6,12 +6,10 @@ import (
 
 var testTable = []struct {
 	name     string
-	input1   int
-	input2   [][]int
+	input    [][]int
 	expected int
 }{
 	{"test_00",
-		6,
 		[][]int{
 			{1, 2},
 			{2, 4},
@@ -21,7 +19,6 @@ var testTable = []struct {
 		3},
 
 	{"test_01",
-		7,
 		[][]int{
 			{4, 3},
 			{3, 2},
@@ -33,7 +30,6 @@ var testTable = []struct {
 		5},
 
 	{"test_02",
-		5,
 		[][]int{
 			{1, 0},
 			{3, 4},
@@ -43,12 +39,10 @@ var testTable = []struct {
 		2},
 
 	{"test_03",
-		12,
 		[][]int{},
 		1},
 
 	{"test_04",
-		3,
 		[][]int{
 			{0, 2},
 			{0, 1},
@@ -57,7 +51,6 @@ var testTable = []struct {
 		3},
 
 	{"test_05",
-		6,
 		[][]int{
 			{3, 4},
 			{3, 0},
@@ -71,9 +64,9 @@ var testTable = []struct {
 func TestSemestersRequired(t *testing.T) {
 	for _, test := range testTable {
 		t.Run(test.name, func(t *testing.T) {
-			result := semestersRequired(test.input1, test.input2)
+			result := semestersRequired(test.input)
 			if result != test.expected {
-				t.Errorf("For inputs '%v', and '%v', expected result is '%v' but got '%v'", test.input1, test.input2, test.expected, result)
+				t.Errorf("For input '%v', expected result is '%v' but got '%v'", test.input, test.expected, result)
 			}
 		})
 	}
