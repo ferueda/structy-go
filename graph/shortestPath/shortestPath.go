@@ -14,7 +14,7 @@ type queueItem[T comparable] struct {
 
 func shortestPath[T comparable](edges [][]T, src, dst T) int {
 	g := make(graph.Graph[T])
-	graph.BuildGraph(g, edges)
+	graph.BuildUndirectedGraph(g, edges)
 	visited := make(map[T]bool)
 	queue := ds.NewQueue[queueItem[T]]()
 	queue.Enqueue(queueItem[T]{node: src, distance: 0})

@@ -9,7 +9,7 @@ import (
 func undirectedPath[T comparable](edges [][]T, src, dst T) bool {
 	visited := make(map[T]bool)
 	g := make(graph.Graph[T])
-	graph.BuildGraph(g, edges)
+	graph.BuildUndirectedGraph(g, edges)
 	return hasPath(g, src, dst, visited)
 }
 
