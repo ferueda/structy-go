@@ -1,6 +1,6 @@
 # Semesters required
 
-Write a function, semestersRequired, that takes in a number of courses (n) and a list of prerequisites as arguments. Courses have ids ranging from 0 through n - 1. A single prerequisite of [A, B] means that course A must be taken before course B. Return the minimum number of semesters required to complete all n courses. There is no limit on how many courses you can take in a single semester, as long the prerequisites of a course are satisfied before taking it.
+Write a function, semestersRequired, that takes in a list of prerequisites as arguments. A single prerequisite of [A, B] means that course A must be taken before course B. Return the minimum number of semesters required to complete all courses. There is no limit on how many courses you can take in a single semester, as long the prerequisites of a course are satisfied before taking it.
 
 Note that given prerequisite [A, B], you cannot take course A and course B concurrently in the same semester. You must take A in some semester before B.
 
@@ -8,7 +8,6 @@ You can assume that it is possible to eventually complete all courses.
 
 **test_00:**
 ```go
-var numCourses = 6
 var prereqs = [][]int{
   {1, 2},
   {2, 4},
@@ -16,11 +15,10 @@ var prereqs = [][]int{
   {0, 5},
 }
 
-semestersRequired(numCourses, prereqs) // 3
+semestersRequired(prereqs) // 3
 ```
 **test_01:**
 ```go
-var numCourses = 7
 var prereqs = [][]int{
   {4, 3},
   {3, 2},
@@ -30,11 +28,10 @@ var prereqs = [][]int{
   {5, 6},
 }
 
-semestersRequired(numCourses, prereqs) // 5
+semestersRequired(prereqs) // 5
 ```
 **test_02:**
 ```go
-var numCourses = 5
 var prereqs = [][]int{
   {1, 0},
   {3, 4},
@@ -42,29 +39,26 @@ var prereqs = [][]int{
   {3, 2},
 }
 
-semestersRequired(numCourses, prereqs) // 2
+semestersRequired(prereqs) // 2
 ```
 **test_03:**
 ```go
-var numCourses = 12
 var prereqs = [][]int{}
 
-semestersRequired(numCourses, prereqs) // 1
+semestersRequired(prereqs) // 1
 ```
 **test_04:**
 ```go
-var numCourses = 3
 var prereqs = [][]int{
   {0, 2},
   {0, 1},
   {1, 2},
 }
 
-semestersRequired(numCourses, prereqs) // 3
+semestersRequired(prereqs) // 3
 ```
 **test_05:**
 ```go
-var numCourses = 6
 var prereqs = [][]int{
   {3, 4},
   {3, 0},
@@ -73,5 +67,5 @@ var prereqs = [][]int{
   {3, 5},
 }
 
-semestersRequired(numCourses, prereqs) // 2
+semestersRequired(prereqs) // 2
 ```
